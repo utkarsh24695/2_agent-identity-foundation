@@ -1,0 +1,27 @@
+# Secrets & Environment files
+.env
+.env.*
+!.env.example
+
+# Python / Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/crash.log
+**/*.tfvars
+!**/env.tfvars
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
